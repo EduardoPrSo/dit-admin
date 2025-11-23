@@ -9,6 +9,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
             clientSecret: process.env.DISCORD_CLIENT_SECRET!,
         }),
     ],
+    trustHost: true,
     callbacks: {
         async signIn({ account }) {
             if (!account) return false
