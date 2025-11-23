@@ -77,7 +77,7 @@ async function main() {
                 data: {
                     courseId,
                     name: `Instrutor ${id}`, // Default name
-                    instructorId: String(id),   // New field
+                    serverId: id,   // Server ID field
                 }
             })
             instructorCount++
