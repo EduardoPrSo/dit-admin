@@ -25,7 +25,7 @@ export async function GET() {
 
         // Agrupar instrutores por curso no formato original (array de Discord IDs)
         const groupedInstructors: {
-            [courseName: string]: string[]
+            [courseName: string]: number[]
         } = {}
 
         instructors.forEach((instructor: { course: { name: string }; serverId: number }) => {
@@ -36,7 +36,7 @@ export async function GET() {
             }
 
             // Retornar apenas o serverId (ID do servidor de RP)
-            groupedInstructors[courseName].push(instructor.serverId.toString())
+            groupedInstructors[courseName].push(instructor.serverId)
         })
 
         return corsResponse(groupedInstructors)
