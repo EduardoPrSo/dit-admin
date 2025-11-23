@@ -1,6 +1,15 @@
 import { NextResponse } from 'next/server'
 import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
+import { corsHeaders, corsResponse } from '@/lib/cors'
+
+// OPTIONS - Handle preflight requests
+export async function OPTIONS() {
+    return new NextResponse(null, {
+        status: 200,
+        headers: corsHeaders(),
+    })
+}
 
 // GET - Retorna instrutores no formato JSON original
 export async function GET() {
@@ -8,7 +17,7 @@ export async function GET() {
         const session = await auth()
 
         if (!session) {
-            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+            return corsResponse({ error: 'Unauthorized' }, 401)
         }
 
         // Buscar todos os instrutores com seus cursos
@@ -37,9 +46,9 @@ export async function GET() {
             groupedInstructors[courseName].push(instructor.serverId.toString())
         })
 
-        return NextResponse.json(groupedInstructors)
+        return corsResponse(groupedInstructors)
     } catch (error) {
         console.error('Error fetching instructors JSON:', error)
-        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+        return corsResponse({ error: 'Internal server error' }, 500)
     }
 }

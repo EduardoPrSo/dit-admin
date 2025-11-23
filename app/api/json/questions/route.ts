@@ -1,6 +1,15 @@
 import { NextResponse } from 'next/server'
 import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
+import { corsHeaders, corsResponse } from '@/lib/cors'
+
+// OPTIONS - Handle preflight requests
+export async function OPTIONS() {
+    return new NextResponse(null, {
+        status: 200,
+        headers: corsHeaders(),
+    })
+}
 
 // GET - Retorna questões no formato JSON original
 export async function GET() {
@@ -8,7 +17,7 @@ export async function GET() {
         const session = await auth()
 
         if (!session) {
-            return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+            return corsResponse({ error: 'Unauthorized' }, 401)
         }
 
         // Buscar todas as questões com seus cursos
@@ -47,9 +56,9 @@ export async function GET() {
             })
         })
 
-        return NextResponse.json(groupedQuestions)
+        return corsResponse(groupedQuestions)
     } catch (error) {
         console.error('Error fetching questions JSON:', error)
-        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+        return corsResponse({ error: 'Internal server error' }, 500)
     }
 }
