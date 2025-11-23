@@ -1,0 +1,892 @@
+{
+    "APH": [
+        {
+            "id": 1,
+            "text": "Qual é o principal objetivo do Atendimento Pré-Hospitalar (APH)?",
+            "options": [
+                "Garantir que a vítima receba primeiros socorros de forma rápida e eficiente",
+                "Transportar a vítima até o hospital o mais rápido possível",
+                "Substituir o trabalho dos paramédicos",
+                "Punir os responsáveis pelo acidente"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 2,
+            "text": "Quem pode realizar o APH conforme o manual?",
+            "options": [
+                "Somente paramédicos",
+                "Apenas o comandante",
+                "Qualquer oficial",
+                "Oficiais com curso e treinamento autorizados"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 3,
+            "text": "Em um acidente de oficiais (QRT-B), o que o oficial autorizado deve fazer?",
+            "options": [
+                "Informar no PM que está a QTI do QRT-B e realizar o procedimento",
+                "Solicitar ambulância",
+                "Levar a vítima ao hospital",
+                "Esperar a chegada dos paramédicos"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 4,
+            "text": "Em ações fechadas (QRT-A), quando os oficiais podem realizar o APH?",
+            "options": [
+                "Durante o confronto",
+                "Após os meliantes estarem algemados e dentro das celas",
+                "Apenas após encaminhar os meliantes para o hospital",
+                "Assim que chegarem no local"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 5,
+            "text": "No caso de código 5 na rua, o APH pode ser realizado no local do tiroteio?",
+            "options": [
+                "Sim, se for seguro",
+                "Apenas se o oficial for o único ferido",
+                "Não, o APH nunca deve ser feito em área vermelha",
+                "Sim, com autorização do hospital"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 6,
+            "text": "O que deve ser feito com oficiais feridos em uma área de código vermelho?",
+            "options": [
+                "Levar ao hospital particular",
+                "Deixar no local até o fim da troca de tiros",
+                "Reanimá-los imediatamente",
+                "Encaminhá-los ao presídio e reanimar após a contagem"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 7,
+            "text": "Quando um civil é encontrado desacordado, qual é a primeira atitude do oficial com APH?",
+            "options": [
+                "Realizar um chamado ao hospital",
+                "Reanimar imediatamente",
+                "Ignorar se houver outros civis",
+                "Levar o civil para casa"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 8,
+            "text": "Mesmo que um civil diga que já chamou o hospital, o oficial deve:",
+            "options": [
+                "Confiar e seguir patrulha",
+                "Fazer um novo chamado",
+                "Esperar o paramédico chegar",
+                "Reanimar de qualquer forma"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 9,
+            "text": "Se o hospital informar que há um paramédico, mas ele não pode sair, o que o oficial com APH pode fazer?",
+            "options": [
+                "Solicitar reforço",
+                "Levar o ferido a qualquer local seguro",
+                "Pedir autorização para realizar o procedimento e encaminhar o ferido ao hospital",
+                "Ignorar a situação"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 10,
+            "text": "Quantos chamados ao hospital o oficial deve fazer se não obtiver resposta?",
+            "options": [
+                "Dois",
+                "Três",
+                "Um",
+                "Quantos forem necessários"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 11,
+            "text": "Durante o atendimento a civis, o oficial deve:",
+            "options": [
+                "Agir rapidamente e em silêncio",
+                "Apenas observar",
+                "Reanimar sem diálogo",
+                "Tratar o civil da melhor forma possível e verbalizar cada ação"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 12,
+            "text": "Após reanimar um civil, o oficial deve:",
+            "options": [
+                "Liberá-lo sem instruções",
+                "Pedir que vá diretamente ao hospital",
+                "Deixá-lo no local",
+                "Levá-lo para a delegacia"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 13,
+            "text": "Se um oficial desmaiar um civil acidentalmente em uma ocorrência, o que deve fazer?",
+            "options": [
+                "Continuar a ocorrência",
+                "Solicitar apoio de alguém com APH",
+                "Ignorar o civil",
+                "Esperar o civil acordar"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 14,
+            "text": "O APH autoriza o oficial a prescrever medicamentos?",
+            "options": [
+                "Apenas sob supervisão",
+                "Apenas com autorização do comandante",
+                "Não, o APH não substitui o trabalho médico",
+                "Sim, em casos leves"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 15,
+            "text": "O que acontece se o oficial usar o APH para brincadeiras ou abusos?",
+            "options": [
+                "Pode perder o curso e sofrer punições administrativas",
+                "Recebe apenas um aviso",
+                "Nada, se for entre amigos",
+                "É suspenso por 24 horas"
+            ],
+            "correct": 0
+        }
+    ],
+    "Abordagem": [
+        {
+            "id": 1,
+            "text": "Quando a abordagem de trânsito deve ser realizada?",
+            "options": [
+                "Somente quando há perseguição em andamento",
+                "Quando veículo está em alta velocidade, averiguado ou suspeita de roubo",
+                "Apenas em blitz programadas",
+                "Sempre que o policial desejar"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 2,
+            "text": "O que deve ser feito pelo P2 da viatura ao se aproximar do veículo em uma abordagem de trânsito?",
+            "options": [
+                "Permanecer no volante",
+                "Solicitar documentos e identidade do civil",
+                "Verificar o porta-malas",
+                "Dar ordem de prisão imediata"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 3,
+            "text": "Em casos de veículo averiguado (danificado), qual a conduta recomendada ao policial?",
+            "options": [
+                "Aplicar multa diretamente",
+                "Ignorar a situação",
+                "Dar primeiro aviso e só multar em reincidência",
+                "Apreender o veículo"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 4,
+            "text": "Quando há suspeita de veículo roubado, qual procedimento é obrigatório?",
+            "options": [
+                "Liberar o civil com advertência",
+                "Sempre encaminhar veículo roubado à garagem/DP",
+                "Aguardar ordem superior",
+                "Liberar o veículo com o cidadão"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 5,
+            "text": "Na abordagem de suspeita simples, como o policial deve proceder se não houver visual do crime?",
+            "options": [
+                "Acusar diretamente",
+                "Tratar como suspeito até fim da abordagem",
+                "Apreender bens imediatamente",
+                "Revistar sem diálogo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 6,
+            "text": "Qual é a importância do giroflex e da sirene no primeiro contato de uma abordagem de suspeita?",
+            "options": [
+                "Apenas para dar estética à abordagem",
+                "Para sinalizar início da abordagem",
+                "Para confundir o suspeito",
+                "Não possui importância"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 7,
+            "text": "O que deve ser feito antes de iniciar uma abordagem de suspeita, considerando possibilidade de perseguição?",
+            "options": [
+                "Solicitar apoio via rádio",
+                "Iniciar sozinho a abordagem",
+                "Esperar que o suspeito fuja",
+                "Retirar todos de dentro do veículo"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 8,
+            "text": "Para que serve o kit residual e o kit pólvora?",
+            "options": [
+                "Detectar contato com pólvora, drogas ou lockpick",
+                "Identificar falsificação de documentos",
+                "Confirmar identidade do suspeito",
+                "Registrar a ocorrência"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 9,
+            "text": "Qual deve ser a conduta do policial caso o teste residual dê negativo?",
+            "options": [
+                "Prender o suspeito mesmo sem provas",
+                "Liberar obrigatoriamente o cidadão",
+                "Continuar insistindo no teste",
+                "Multar o cidadão"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 10,
+            "text": "Por que não é permitido usar o kit residual em situações de visual de crime?",
+            "options": [
+                "Porque não traz resultados confiáveis",
+                "Porque há visual e confirmação do crime",
+                "Porque demora muito tempo",
+                "Porque é obrigação do apoio usar"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 11,
+            "text": "Na abordagem de visual de crime, o que deve ser feito após todos os indivíduos desembarcarem do veículo?",
+            "options": [
+                "Solicitar reforço e revista imediata",
+                "Solicitar que mantenham mãos entrelaçadas e verificar porta-malas",
+                "Apenas revistar visualmente",
+                "Aplicar kit residual"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 12,
+            "text": "Qual é a diferença fundamental entre abordagem de suspeita e de visual de crime?",
+            "options": [
+                "Na suspeita não há confirmação do crime",
+                "Na suspeita sempre há prisão",
+                "No visual o suspeito sempre é liberado",
+                "Na suspeita é proibido usar rádio"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 13,
+            "text": "Em casos de COD 5, como deve ser feita a abordagem inicial?",
+            "options": [
+                "Com leque tático e algemando todos imediatamente",
+                "Somente com diálogo",
+                "Sem precisar de reforço",
+                "Apenas com o uso do kit pólvora"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 14,
+            "text": "Quais são as recomendações sobre revista em mulheres?",
+            "options": [
+                "Homens podem revistar normalmente",
+                "Somente policiais femininas podem revistar mulheres",
+                "Revistas em mulheres são proibidas",
+                "Qualquer policial pode revistar se houver pressa"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 15,
+            "text": "Quem é responsável pelo R.O. e registro de evidências na cena do crime?",
+            "options": [
+                "Qualquer oficial de apoio",
+                "Viatura primária",
+                "Delegado",
+                "Oficial que efetuou a prisão"
+            ],
+            "correct": 3
+        }
+    ],
+    "Modulação": [
+        {
+            "id": 1,
+            "text": "Qual é o código utilizado pela Polícia do Complexo XP para comunicação via rádio e chat?",
+            "options": [
+                "Código X",
+                "Código Q",
+                "Código Z",
+                "Código P"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 2,
+            "text": "Qual a finalidade dos códigos situacionais?",
+            "options": [
+                "Substituir o Código Q",
+                "Informar gravidade e atualização das ocorrências",
+                "Identificar veículos suspeitos",
+                "Avisar apenas situações de COD 5"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 3,
+            "text": "Qual frequência de rádio é utilizada pela Polícia Civil?",
+            "options": [
+                "911",
+                "912",
+                "921",
+                "930"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 4,
+            "text": "Qual tecla é usada para subir uma frequência de rádio?",
+            "options": [
+                "Page Up",
+                "Page Down",
+                "Insert",
+                "Delete"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 5,
+            "text": "O que deve ser informado ao abordar um veículo pelo rádio?",
+            "options": [
+                "Somente a cor do veículo",
+                "Modelo, cor, placa, número de ocupantes e local da abordagem",
+                "Apenas o número da badge",
+                "Somente a localização"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 6,
+            "text": "Qual é a forma correta de informar deslocamento para ocorrência?",
+            "options": [
+                "QAP Central, 004 indo para ocorrência",
+                "QAP Central, 004 a QTI do roubo de veículo no QTH dos guetos",
+                "QAP Central, em direção à praça",
+                "QAP Central, 004 indo verificar visual"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 7,
+            "text": "Quem deve assumir a modulação da ocorrência quando um GAEP entra?",
+            "options": [
+                "A viatura primária",
+                "Sempre o P1",
+                "O GAEP presente na ocorrência",
+                "A viatura terciária"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 8,
+            "text": "O que deve ser informado ao encerrar uma ocorrência com captura dos meliantes?",
+            "options": [
+                "Central, QTA e retornando ao COD 0",
+                "Central, 004 Código 4 na QRU, QTI da DRF/Presídio",
+                "Central, visual perdido",
+                "Central, encerrando ocorrência"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 9,
+            "text": "Qual código é usado para informar perda de visual e início de busca?",
+            "options": [
+                "COD 4",
+                "COD 6",
+                "COD 5",
+                "QRR"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 10,
+            "text": "O que significa solicitar QRX na rádio?",
+            "options": [
+                "Solicitar pausa",
+                "Solicitar prioridade devido a risco",
+                "Informar fim de serviço",
+                "Solicitar reforço imediato"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 11,
+            "text": "Qual comando deve ser informado no chat ao entrar em serviço?",
+            "options": [
+                "Nome e unidade",
+                "Patente e local",
+                "Badge + em QRV",
+                "Somente /pm ou /pc"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 12,
+            "text": "O que significa QTX?",
+            "options": [
+                "Solicitar reforço urgente",
+                "Sair de serviço",
+                "Deslocamento para ocorrência",
+                "Retorno ao COD 0"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 13,
+            "text": "Como deve ser informado no chat PM um acompanhamento?",
+            "options": [
+                "/pm (MODELO) / (COR) / (PLACA) / (OCORRÊNCIA) / (EM ANDAMENTO)",
+                "/pm (COR) / (LOCAL) / (PLACA)",
+                "/pm (MODELO) / (QTH) / (CÓDIGO)",
+                "/pm (NOME) / (BADGE) / (SITUAÇÃO)"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 14,
+            "text": "Para que serve o comando F2 (QTH)?",
+            "options": [
+                "Enviar localização via dispatch",
+                "Solicitar prioridade QRX",
+                "Pedir reforço QRR",
+                "Reportar acidente QRT-B"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 15,
+            "text": "Quando o QRR pode ser usado?",
+            "options": [
+                "Sempre que um policial estiver rendido",
+                "Somente quando não for possível usar o rádio para solicitar reforço",
+                "Apenas em sequestros",
+                "Quando houver acidente de trânsito"
+            ],
+            "correct": 1
+        }
+    ],
+    "Acompanhamento": [
+        {
+            "id": 1,
+            "text": "Qual é a primeira ação do policial ao receber uma notificação de QRU?",
+            "options": [
+                "Iniciar imediatamente o acompanhamento",
+                "Solicitar apoio pelo rádio",
+                "Ir ao local e tentar abordagem inicial",
+                "Acionar todas as unidades disponíveis"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 2,
+            "text": "Qual comando deve ser usado quando a viatura está a caminho da ocorrência?",
+            "options": [
+                "ALT + 1",
+                "ALT + 2",
+                "ALT + 3",
+                "CTRL + 1"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 3,
+            "text": "Em uma perseguição normal, qual é o limite de viaturas que podem participar?",
+            "options": [
+                "2 unidades",
+                "3 unidades",
+                "4 unidades",
+                "Não há limite"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 4,
+            "text": "Quantas motos da GTM contam como uma única unidade em perseguições?",
+            "options": [
+                "1 moto",
+                "2 motos",
+                "3 motos",
+                "Nenhuma"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 5,
+            "text": "Quando é permitido que uma unidade do BOPE participe de um acompanhamento?",
+            "options": [
+                "Sempre que houver fuga em alta velocidade",
+                "Apenas quando for roubo de carga",
+                "Em casos de suspeita de Código 5 ou indivíduo armado",
+                "Apenas em perseguições aquáticas"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 6,
+            "text": "Em acompanhamentos com veículos de 4 rodas, qual é a prioridade?",
+            "options": [
+                "GTM",
+                "GAR",
+                "COTAR",
+                "BOPE"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 7,
+            "text": "Quem deve assumir a modulação da QRU quando chega ao acompanhamento?",
+            "options": [
+                "Viatura primária",
+                "Viatura secundária",
+                "Viatura terciária",
+                "A maior patente"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 8,
+            "text": "Qual é a obrigação principal da viatura terciária?",
+            "options": [
+                "Assumir o PM da QRU",
+                "Prever o percurso e adiantar becos",
+                "Render os suspeitos",
+                "Autorizar o uso de spike"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 9,
+            "text": "O que os oficiais P2 e P3 devem fazer quando o veículo acompanhado sofre acidente?",
+            "options": [
+                "Abandonar a perseguição",
+                "Solicitar reforços",
+                "Descer e tentar rendição",
+                "Liberar todas as unidades"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 10,
+            "text": "Durante uma fuga a pé, qual manobra é aplicada para derrubar o indivíduo?",
+            "options": [
+                "Rasteira",
+                "Cabeçada",
+                "Empurrão",
+                "Chave de braço"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 11,
+            "text": "Se o indivíduo mergulha propositalmente com o veículo na água, o que é liberado?",
+            "options": [
+                "Resgate imediato",
+                "Código 5",
+                "Apenas observação",
+                "Somente acompanhamento aéreo"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 12,
+            "text": "O que pode ocasionar um QTA de uma perseguição?",
+            "options": [
+                "Queda de internet",
+                "Ir em outra QRU mais interessante",
+                "Excesso de viaturas",
+                "Troca de viatura"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 13,
+            "text": "Em quais situações é permitido retornar de um QTA?",
+            "options": [
+                "Quando o oficial sentir vontade",
+                "Apenas em retomada de visual ou resgate",
+                "Quando faltar viaturas",
+                "Sempre que a primária autorizar"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 14,
+            "text": "O que caracteriza um \"resgate\" durante acompanhamento?",
+            "options": [
+                "Troca de viatura policial",
+                "Quando veículo externo retira suspeitos do acompanhamento",
+                "Quando oficial ajuda outro policial",
+                "Quando o veículo fura o pneu"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 15,
+            "text": "No caso de 2º resgate, além de todas as unidades liberadas, o que é permitido?",
+            "options": [
+                "Usar armas para matar o bandido",
+                "Furar o pneu do veículo",
+                "Desistência da perseguição",
+                "Aumento do limite de viaturas"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 16,
+            "text": "O que pode ocasionar um Código 5 no pneu?",
+            "options": [
+                "Suspeito dirigindo em alta velocidade",
+                "Colisão proposital com viatura",
+                "Suspeito sem cinto de segurança",
+                "Fuga a pé"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 17,
+            "text": "Qual situação autoriza Código 5 nos indivíduos?",
+            "options": [
+                "Se dirigir em área urbana",
+                "Disparo contra guarnição",
+                "Recusar abordagem inicial",
+                "Exceder limite de velocidade"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 18,
+            "text": "O que deve ser sempre usado para prever saídas de becos e rampas?",
+            "options": [
+                "Comunicação no rádio",
+                "GPS",
+                "Câmera do helicóptero",
+                "Apenas o instinto"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 19,
+            "text": "Quem pode utilizar a spike?",
+            "options": [
+                "Todas as unidades",
+                "Apenas GAR e GTM",
+                "Apenas BOPE",
+                "Qualquer viatura secundária"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 20,
+            "text": "Como deve ser feita a ultrapassagem durante um acompanhamento?",
+            "options": [
+                "Pela direita, em qualquer situação",
+                "Pela esquerda, nunca em becos sem autorização",
+                "Apenas em estradas largas",
+                "Somente quando a primária permitir, sem restrição"
+            ],
+            "correct": 1
+        }
+    ],
+    "Negociação": [
+        {
+            "id": 1,
+            "text": "Qual é o principal objetivo do gerenciamento de crises?",
+            "options": [
+                "Garantir o sucesso da operação policial",
+                "Preservar a integridade das pessoas envolvidas, sejam vítimas ou causadores",
+                "Eliminar completamente a ameaça",
+                "Prender todos os suspeitos"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 2,
+            "text": "O que caracteriza uma crise no âmbito policial?",
+            "options": [
+                "Um evento planejado e controlado",
+                "Um evento crítico, violento e inesperado que rompe a normalidade",
+                "Uma operação tática comum",
+                "Um conflito verbal entre civis"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 3,
+            "text": "Qual deve ser a prioridade máxima durante o gerenciamento de crises?",
+            "options": [
+                "Reduzir danos materiais",
+                "Capturar os suspeitos",
+                "Preservar a vida",
+                "Restabelecer a ordem pública"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 4,
+            "text": "O que é o perímetro situacional?",
+            "options": [
+                "Área delimitada para atuação policial organizada e segura",
+                "Região de fuga dos suspeitos",
+                "Área destinada apenas à imprensa",
+                "Zona de descanso dos policiais"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 5,
+            "text": "Em uma crise, quem deve estar mais próximo do ponto crítico?",
+            "options": [
+                "A imprensa",
+                "Os negociadores",
+                "Os membros operacionais",
+                "A população civil"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 6,
+            "text": "O que é considerado um agravante de crise?",
+            "options": [
+                "Fornecer meios que aumentem o risco à vida dos envolvidos",
+                "Iniciar o diálogo com o suspeito",
+                "Estabelecer perímetro de segurança",
+                "Encerrar a negociação rapidamente"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 7,
+            "text": "Em uma ação pequena, como loja de departamento, o que é proibido negociar?",
+            "options": [
+                "Reféns",
+                "Retirada de armamentos, drops ou unidades policiais",
+                "Tempo extra para negociação",
+                "Saída alternativa"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 8,
+            "text": "Em ações grandes, como joalheria ou banco Fleeca, o que é permitido negociar?",
+            "options": [
+                "Teti chão, retirada de atirador e proibição de subir em prédios, se houver reféns",
+                "A liberação de armas militares",
+                "A retirada de unidades policiais do perímetro",
+                "Dinheiro em troca de reféns"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 9,
+            "text": "Qual é a regra sobre o uso de interiores nas ações grandes?",
+            "options": [
+                "Pode-se usar qualquer interior próximo ao local",
+                "Somente o interior da ação pode ser utilizado",
+                "O uso de interiores é totalmente livre",
+                "Apenas o negociador decide"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 10,
+            "text": "O que o negociador deve fazer se o suspeito ameaçar abater reféns?",
+            "options": [
+                "Interromper imediatamente a negociação",
+                "Deslocar viaturas ao redor e manter visual dos reféns",
+                "Ceder às exigências do suspeito",
+                "Encerrar a operação"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 11,
+            "text": "Durante negociações com reféns, o que é proibido?",
+            "options": [
+                "Negociar retirada de atirador",
+                "Negociar troca de reféns por dinheiro, armamento ou vida de policiais",
+                "Pedir prova de vida do refém",
+                "Reposicionar unidades táticas"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 12,
+            "text": "Se o suspeito ferir intencionalmente um refém, o que deve ocorrer?",
+            "options": [
+                "Continuar a negociação",
+                "Interromper a negociação e preparar incursão com cautela",
+                "Ceder às exigências para evitar novas agressões",
+                "Solicitar reforço de mídia"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 13,
+            "text": "É possível retirar atirador e reposicionar unidades ao mesmo tempo?",
+            "options": [
+                "Sim, sempre que solicitado",
+                "Sim, mas apenas com autorização do comandante",
+                "Não, apenas uma das opções pode ser aceita",
+                "Depende do número de reféns"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 14,
+            "text": "Quando ocorre a quebra de fuga limpa?",
+            "options": [
+                "Quando há comunicação com a imprensa",
+                "Quando os suspeitos batem em viaturas, pulam na água ou descem armados sem autorização",
+                "Quando os policiais se reposicionam",
+                "Quando há interrupção da negociação"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 15,
+            "text": "O que deve ser feito em caso de dúvida durante uma negociação?",
+            "options": [
+                "Tomar decisão imediata",
+                "Consultar sempre um superior hierárquico, preferencialmente do BOPE",
+                "Aguardar até que o suspeito se renda",
+                "Encerrar a negociação"
+            ],
+            "correct": 1
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// User model for Discord authentication
+model User {
+  id        String   @id @default(cuid())
+  discordId String   @unique
+  role      Role     @default(USER)
+  createdAt DateTime @default(now())
+}
+
+enum Role {
+  ADMIN
+  USER
+}
+
+// Course model - shared reference for Questions and Instructors
+model Course {
+  id          String       @id @default(cuid())
+  name        String       @unique
+  questions   Question[]
+  instructors Instructor[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+// Question model - Tab 1
+model Question {
+  id            String   @id @default(cuid())
+  courseId      String
+  course        Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  question      String
+  alternatives  String[] // Array de 4 alternativas
+  correctAnswer Int      // Index da resposta correta (0-3)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+// Instructor model - Tab 2
+model Instructor {
+  id        String   @id @default(cuid())
+  courseId  String
+  course    Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  serverId  Int      // ID do servidor de RP (1, 2, 3, etc)
+  name      String   // Nome do instrutor para visualização
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Manual model - Tab 3
+model Manual {
+  id          String   @id @default(cuid())
+  title       String
+  url         String
+  description String   @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
