@@ -32,7 +32,7 @@ export async function GET() {
         } = {}
 
         let questionId = 1
-        questions.forEach((question) => {
+        questions.forEach((question: { course: { name: string }; question: string; alternatives: string[]; correctAnswer: number }) => {
             const courseName = question.course.name
 
             if (!groupedQuestions[courseName]) {

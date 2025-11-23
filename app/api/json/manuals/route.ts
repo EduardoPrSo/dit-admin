@@ -19,7 +19,7 @@ export async function GET() {
         })
 
         // Converter para o formato JSON original
-        const manualsJSON = manuals.map((manual) => ({
+        const manualsJSON = manuals.map((manual: { title: string; url: string; description: string }) => ({
             title: manual.title,
             content: manual.url,
             description: manual.description,
