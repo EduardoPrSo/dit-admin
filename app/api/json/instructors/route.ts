@@ -26,7 +26,7 @@ export async function GET() {
             [courseName: string]: string[]
         } = {}
 
-        instructors.forEach((instructor) => {
+        instructors.forEach((instructor: { course: { name: string }; serverId: number }) => {
             const courseName = instructor.course.name
 
             if (!groupedInstructors[courseName]) {
