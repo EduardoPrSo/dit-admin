@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server'
-import { auth } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
 import { corsHeaders, corsResponse } from '@/lib/cors'
 
@@ -14,12 +13,6 @@ export async function OPTIONS() {
 // GET - Retorna manuais no formato JSON original
 export async function GET() {
     try {
-        const session = await auth()
-
-        if (!session) {
-            return corsResponse({ error: 'Unauthorized' }, 401)
-        }
-
         // Buscar todos os manuais
         const manuals = await prisma.manual.findMany({
             orderBy: {
