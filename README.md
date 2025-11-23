@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DIT Admin
 
-## Getting Started
+Sistema de administração para gerenciamento de cursos, instrutores, questões e manuais.
 
-First, run the development server:
+## Tecnologias
 
+- Next.js 16
+- TypeScript
+- Prisma ORM
+- PostgreSQL (Neon)
+- NextAuth.js (Discord OAuth)
+- Tailwind CSS
+
+## Setup Local
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/EduardoPrSo/dit-admin.git
+cd dit-admin
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Configure as variáveis de ambiente:
+```bash
+cp .env.example .env
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edite o arquivo `.env` com suas credenciais:
+- `DATABASE_URL`: String de conexão PostgreSQL
+- `NEXTAUTH_URL`: URL da aplicação (http://localhost:3000 para desenvolvimento)
+- `NEXTAUTH_SECRET`: Gere com `openssl rand -base64 32`
+- `DISCORD_CLIENT_ID` e `DISCORD_CLIENT_SECRET`: Credenciais OAuth do Discord
 
-## Learn More
+4. Execute as migrações do Prisma:
+```bash
+npx prisma migrate deploy
+npx prisma generate
+```
 
-To learn more about Next.js, take a look at the following resources:
+5. (Opcional) Popule o banco com dados iniciais:
+```bash
+npm run seed
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Acesse [http://localhost:3000](http://localhost:3000)
 
-## Deploy on Vercel
+## Deploy na Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Variáveis de Ambiente Necessárias
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Configure estas variáveis no painel da Vercel:
+
+```
+DATABASE_URL="postgresql://user:password@host:5432/database?sslmode=require"
+NEXTAUTH_URL="https://seu-dominio.vercel.app"
+NEXTAUTH_SECRET="seu-secret-aqui"
+DISCORD_CLIENT_ID="seu-client-id"
+DISCORD_CLIENT_SECRET="seu-client-secret"
+```
+
+### Passos para Deploy
+
+1. Faça push do código para o GitHub
+2. Importe o projeto na Vercel
+3. Configure as variáveis de ambiente
+4. A Vercel irá automaticamente:
+   - Instalar dependências
+   - Gerar o Prisma Client
+   - Executar migrações
+   - Fazer o build do Next.js
+
+### Importante
+
+- Certifique-se de que o banco de dados PostgreSQL está acessível
+- O `DATABASE_URL` deve usar `?sslmode=require` para conexões seguras
+- Adicione a URL da Vercel nas configurações de OAuth do Discord
+
+## Scripts Disponíveis
+
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria o build de produção
+- `npm start` - Inicia o servidor de produção
+- `npm run lint` - Executa o ESLint
+
+## Estrutura do Projeto
+
+```
+├── app/                    # Rotas e páginas Next.js
+│   ├── api/               # Endpoints da API
+│   ├── admin/             # Painel admin
+│   ├── courses/           # Gerenciamento de cursos
+│   ├── instructors/       # Gerenciamento de instrutores
+│   ├── manuals/           # Gerenciamento de manuais
+│   └── questions/         # Gerenciamento de questões
+├── components/            # Componentes React reutilizáveis
+├── lib/                   # Configurações e utilitários
+├── prisma/               # Schema e migrações do Prisma
+└── types/                # Definições de tipos TypeScript
+```
+
+## Autenticação
+
+O sistema usa Discord OAuth para autenticação. Apenas usuários autenticados podem acessar o painel admin.
+
+## Licença
+
+MIT
+
