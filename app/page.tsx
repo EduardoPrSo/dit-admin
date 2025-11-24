@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
         <button
-          onClick={() => signIn('discord', { callbackUrl: '/questions' })}
+          onClick={() => signIn('discord', { callbackUrl: '/courses' })}
           className="bg-[#7289DA] hover:bg-[#5b6eae] py-2 rounded-md justify-center items-center w-full text-lg shadow-lg hover:shadow-xl transition-all flex gap-2 text-white cursor-pointer"
         >
           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

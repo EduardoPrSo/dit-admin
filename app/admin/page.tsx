@@ -23,7 +23,7 @@ export default function AdminPage() {
         if (status === 'unauthenticated') {
             router.push('/')
         } else if (session?.user.role !== 'ADMIN') {
-            router.push('/questions')
+            router.push('/courses')
         } else {
             fetchUsers()
         }
