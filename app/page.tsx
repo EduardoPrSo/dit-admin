@@ -10,8 +10,8 @@ export default function Home() {
 
   useEffect(() => {
     if (session) {
-      // Redirect to questions page after login
-      router.push('/questions')
+      // Redirect to courses page after login
+      router.push('/courses')
     }
   }, [session, router])
 
